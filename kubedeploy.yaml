@@ -2,9 +2,9 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: server-lobby-cakewars
+  name: server-cakewars
   labels:
-    app: server-lobby-cakewars
+    app: server-cakewars
     type: spigot
   namespace: servers
 spec:
