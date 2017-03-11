@@ -27,5 +27,5 @@ handlers:
         type: single
         address: "http://localhost:8080"
         userId: exorathv1
+        mapId: hub.iw
         envId: prod
-        prefix: hub.iw
