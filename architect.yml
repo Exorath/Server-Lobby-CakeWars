@@ -28,4 +28,4 @@ handlers:
         address: "http://localhost:8080"
         userId: exorathv1
         envId: prod
-        prefix: lobby.cakewars.map1
+        prefix: hub.iw
