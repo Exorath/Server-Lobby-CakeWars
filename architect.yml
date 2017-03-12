@@ -1,6 +1,11 @@
 handlers:
   github:
     plugins:
+      MainLobbyPlugin:
+        oauth:
+          env: GITHUB_OAUTH
+        name: exorath/MainLobbyPlugin
+        jar: MainLobbyPlugin-(.*).jar
       ConnectorPlugin:
         oauth:
           env: GITHUB_OAUTH
