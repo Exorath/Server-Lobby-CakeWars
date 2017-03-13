@@ -1,0 +1,22 @@
+inv:
+  gamesitem:
+    slot: 0
+  games:
+    CakeWars Normal:
+      slot: 13
+      name: simple-1v1
+      description:
+        short: RTS
+        long:
+        - Start a game
+      filter:
+        gameId: cakewars
+        
+joincommands:
+  hubcmd:
+    name: Server Hub
+    cmds:
+    - hub
+    - lobby
+    filter:
+      gameId: lobby-main
