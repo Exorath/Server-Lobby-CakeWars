@@ -31,11 +31,16 @@ handlers:
           env: GITHUB_OAUTH
         name: exorath/LobbyStatsPlugin
         jar: LobbyStatsPlugin(.*).jar
-      ExoMenus
+      ExoMenus:
         oauth:
           env: GITHUB_OAUTH
         name: exorath/ExoMenus
         jar: ExoMenus(.*).jar
+      CakeWarsLobbyPlugin:
+        oauth:
+          env: GITHUB_OAUTH
+        name: exorath/CakeWarsLobbyPlugin
+        jar: CakeWarsLobbyPlugin(.*).jar
   amazons3:
     jar:
       bucketName: exospigot
